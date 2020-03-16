@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ESP32-S2-WROOM)(type Legacy)(uri ${KIPRJMOD}/ESP32-S2-WROOM.lib)(options "")(descr ""))
+)
