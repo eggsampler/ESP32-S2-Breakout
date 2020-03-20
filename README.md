@@ -44,10 +44,12 @@ A regulator which has high efficiencies (ie, low ground/quiescent current) is ne
 
 A few resources were useful when researching crystal and component choices.
 
-- https://en.wikipedia.org/wiki/Pierce_oscillator
-- http://ww1.microchip.com/downloads/en/AppNotes/00943A.pdf
-- http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf
-- http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00221665.pdf
+1. https://en.wikipedia.org/wiki/Pierce_oscillator
+2. http://ww1.microchip.com/downloads/en/AppNotes/00943A.pdf
+3. http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf
+4. http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00221665.pdf
+
+A cheap crystal FC-135 with a max ESR of 70kOhms was used which fits on the KiCad 3215 pad. A few passive values will need to be tested for v1 to determine if they're even necessary.
 
 ### 3. Switches / Connectors
 
