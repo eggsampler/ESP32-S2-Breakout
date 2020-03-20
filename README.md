@@ -13,12 +13,12 @@ To that end, a few choices were made,
 - Designed in [KiCad](https://kicad-pcb.org/) to be accessible to most people
 - Use as little active components as possible
 - Using 0805 (imperial) sized passives
- - 0603 is on the edge of being easy to hand solder with an iron, so 0805 was used
- - Ideally the board would be constructed using solder paste, a stencil and either some form of reflow oven or hot plate (even a [skillet on a stove](https://www.sparkfun.com/tutorials/59) is fine)
+  - 0603 is on the edge of being easy to hand solder with an iron, so 0805 was used
+  - Ideally the board would be constructed using solder paste, a stencil and either some form of reflow oven or hot plate (even a [skillet on a stove](https://www.sparkfun.com/tutorials/59) is fine)
 - To have the boards cheaply manufactured by most turn-key pcb fab houses,
- - Power traces should be at least 12 mil
- - Signal traces should be at least 8 mil
- - Vias should be 0.3mm drill size with a 0.6mm pad size
+  - Power traces should be at least 12 mil
+  - Signal traces should be at least 8 mil
+  - Vias should be 0.3mm drill size with a 0.6mm pad size
 - No LGA parts, and ideally no QFN parts
 
 ## Initial Design
