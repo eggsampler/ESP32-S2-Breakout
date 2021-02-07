@@ -16,8 +16,8 @@ To that end, a few choices were made,
 
 - Designed in [KiCad](https://kicad-pcb.org/) to be accessible to most people
 - Use as little active components as possible
-- Using 0805 (imperial) sized passives
-  - 0603 is on the edge of being easy to hand solder with an iron, so 0805 was used
+  - Note, it is definitely possible to use less than is currently laid out and the design will (slowly) be iterated on towards this.
+- Using 0603 (imperial) sized passives
   - Ideally the board would be constructed using solder paste, a stencil and either some form of reflow oven or hot plate (even a [skillet on a stove](https://www.sparkfun.com/tutorials/59) is fine)
 - To have the boards cheaply manufactured by most turn-key pcb fab houses,
   - Power traces should be at least 12 mil
@@ -33,7 +33,8 @@ The initial design was taken from the [ESP32-S2-WROOM & ESP32-S2-WROOM-I Datashe
 
 A few changes were made from this schematic.
 
-- The USB data lines were directed to a USB Micro B connector
+- The USB data lines were directed to a USB-C connector
+- 22 ohm termination resistors are used on the USB data lines, along with including the 20pF caps
 - No 0 resistor was used on the EN reset switch, just tied directly to the EN pin
 - A switch was also used on IO0 for the boot mode, instead of a connector/header
 - No separate connectors for UART/JTAG, all pins were broken out to 2.54mm/0.1" headers
