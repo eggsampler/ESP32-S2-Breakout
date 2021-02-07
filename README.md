@@ -1,8 +1,10 @@
 # ESP32-S2-Breakout
 
-**Update July 2020:** Board has been [assembled](https://i.imgur.com/Ixv2GHa.jpg), but not fully tested. Currently waiting for ESP-IDF release with full s2 support.
+**Feb 2021:** Updated to v2, switched from micro usb to usb-c connector, minor routing changes. PCB ordered, updates to come.
 
-![ESP32-S2-Breakout](https://raw.githubusercontent.com/eggsampler/ESP32-S2-Breakout/master/images/v1-front.png)
+**July 2020:** Board has been [assembled](https://i.imgur.com/Ixv2GHa.jpg), but not fully tested. Currently waiting for ESP-IDF release with full s2 support.
+
+![ESP32-S2-Breakout](https://raw.githubusercontent.com/eggsampler/ESP32-S2-Breakout/master/images/v2-front.png)
 
 This board is a minimal breakout board for the new ESP32-S2-WROOM module from [Espressif](https://www.espressif.com/). It was designed with a few criteria in mind,
 
