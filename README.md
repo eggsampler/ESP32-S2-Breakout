@@ -1,5 +1,7 @@
 # ESP32-S2-Breakout
 
+**May 2021:** New v2 boards [assembled with USB-C connector](https://cdn.discordapp.com/attachments/743434443859034135/847350110374461490/image0.jpg), tested and working well over USB CDC-ACM and DFU programming.
+
 **Feb 2021:** Updated to v2, switched from micro usb to usb-c connector, minor routing changes. PCB ordered, updates to come.
 
 **July 2020:** Board has been [assembled](https://i.imgur.com/Ixv2GHa.jpg), but not fully tested. Currently waiting for ESP-IDF release with full s2 support.
