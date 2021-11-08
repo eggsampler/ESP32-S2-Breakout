@@ -16,7 +16,7 @@ This board is a minimal breakout board for the new ESP32-S2-WROOM module from [E
 
 To that end, a few choices were made,
 
-- Designed in [KiCad](https://kicad-pcb.org/) to be accessible to most people
+- Designed in [KiCad](https://kicad.org/) to be accessible to most people
 - Use as little active components as possible
   - Note, it is definitely possible to use less than is currently laid out and the design will (slowly) be iterated on towards this.
 - Using 0603 (imperial) sized passives
